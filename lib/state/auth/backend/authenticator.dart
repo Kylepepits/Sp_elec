@@ -1,5 +1,3 @@
-// ignore_for_file: unnecessary_null_comparison
-
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:instagram_clone_course_rtk/state/auth/constants/constants.dart';
 import 'package:instagram_clone_course_rtk/state/auth/models/auth_result.dart';
@@ -30,6 +28,7 @@ class Authenticator {
 
     try {
       await FirebaseAuth.instance.signInWithCredential(OAuthCredential);
+      print('Successful Facebook login'); // Add this print statement
       return AuthResult.success;
     } on FirebaseAuthException catch (e) {
       final email = e.email;
@@ -67,6 +66,7 @@ class Authenticator {
     );
     try {
       await FirebaseAuth.instance.signInWithCredential(OAuthCredential);
+      print('Successful Google login'); // Add this print statement
       return AuthResult.success;
     } catch (e) {
       return AuthResult.failure;
