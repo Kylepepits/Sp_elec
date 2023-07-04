@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770111659996",
+    "project_id": "instartk",
+    "storage_bucket": "instartk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770111659996:android:d477daadba79d6407ef919",
+        "android_client_info": {
+          "package_name": "se.pixolity.instagram_clone_course_rtk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770111659996-7pbtcnle0iudfdal0q3tei0pt78bagsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDpEEQ84cm3Bg4Nh8LB4gOn3mA7I3QKKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770111659996-7pbtcnle0iudfdal0q3tei0pt78bagsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
